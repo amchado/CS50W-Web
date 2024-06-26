@@ -1,2 +1,2 @@
 # CS50W-Web
- Curso de Havard Web
+ Curso CS50's Web Programming with Python and JavaScript
