@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P.A. Project0</title>
     <link rel="stylesheet" href="index.css">
+    <title>P.I Project0</title>
 </head>
 <body>
     <header id="header">
-        <a href="index.html" id="logo">Google</a>
+        <a href="index.html" id="logo"><img id="imagem" src="imagens/Google-Logo.png" alt="Logo do google"></a>
         
         <nav id="nav">
             <ul id="lista">
                 <li>
-                    <a href="pag2.html">Pesquisa de Imagens</a>
+                    <a href="searchIMG.html">Pesquisa de Imagens</a>
                 </li>
                 <li>
-                    <a href="pag3.html">Pesquisa Avançada</a>
+                    <a href="advancedSearch.html">Pesquisa Avançada</a>
                 </li>
             </ul>
         </nav>
@@ -24,11 +24,16 @@
     </header>
 
 
+    <div id="main">
+        <img src="imagens/download.png" alt="" id="logoIMG2">
+    </div>
+
     <div id="formulario">
-        <form action="https://www.google.com/advanced_search">
+        <form action="http://images.google.com/images">
             <input type="text" name="q" class="texto" >
 
-            <input type="submit" value="Pesquisa Avançada" class="botao">
+            <input type="submit" value="Google imagens" class="botao">
+            
         </form>
     </div>
 </body>
